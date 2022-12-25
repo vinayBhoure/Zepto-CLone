@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* reset css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --primary-text-color: ;
+    --secondary-text-color: ;
+    --accent-color: ;
+    --accent-color-dark: ;
+    --padding-text-inline: ;
+}
+
+h1{
+      font-size:3rem ;
+      font-weight: 700;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3{
+     font-size: 1.5rem ;
+     font-weight: 400;
+}
+
+.container{
+            max-width: 1128px;
+}
+
+.flex{
+       display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/* utility css - css class while customizing element */
+.sub-foot-link{
+    text-decoration: underline;
+}
+
+
+/* main css for ids and sections */
