@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* reset css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --primary-text-color: ;
+    --secondary-text-color: #dec2eb;
+    --accent-color: ;
+    --accent-color-dark: ;
+    --padding-text-inline: ;
+}
+
+h1{
+      font-size:3rem ;
+      font-weight: 700;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3{
+     font-size: 1.5rem ;
+     font-weight: 400;
+}
+
+.container{
+            /* max-width: 1255px; */
+            padding: 0 125px;
+            margin: auto;
+}
+
+.flex{
+       display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/* utility css - css class while customizing element */
+.sub-foot-link{
+    text-decoration: underline;
+}
+
+
+/* main css for ids and sections */
+
+#header{
+   background-color: #3c006b;
+}
+
+.nav-container{
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.nav-list{
+
+    align-items: center;
+
+}
+.nav-item{
+    padding: 10px 30px;
+    font-size: 1.1rem; 
+}
+
+.left-area{
+    max-width: 50%;
+    flex-direction: column;
+    
+}
+
+.left-area h1{
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 120px;
+}
+.right-area img{
+    max-width: 122%;
+
+}
+
+.download{
+    display: flex;
+    gap: 40px;
+}
+.download img{
+   width: 195px;
+   height: 65px;
+}
+
+.process-con{
+    align-items: center;
+    flex-direction: column;
+}
+.methods{
+    justify-content: space-between;
+}
+.card{
+    text-align: center;
+}
+.card-2 img{
+    
+}
