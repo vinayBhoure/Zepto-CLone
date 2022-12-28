@@ -207,7 +207,7 @@ left:15%
     flex-direction: column;
     padding: 35px 35px;
     font-size: 30px;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 25px;
