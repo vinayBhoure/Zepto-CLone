@@ -120,6 +120,29 @@ a {
     line-height: 126px;
     color: white;
 }
+.title-img-2{
+    width: 120%;
+    position: relative;
+    left: 15%;
+    animation: rocket 4s ease-out 0 infinite alternate;
+}
+/* @keyframes rocket{
+0%{
+left:30%;
+}
+25%{
+  top:15%;
+}
+50%{
+left:15%
+}
+75%{
+
+}
+100%{
+
+} */
+}
 
 .download {
     gap: 30px;
@@ -130,8 +153,9 @@ a {
     width: 32%;
 }
 
-.right-area img {
-    width: 125%;
+.title-img {
+    width: 55%;
+    position: absolute;
 }
 
 #process {
