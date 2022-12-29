@@ -49,11 +49,11 @@ ul {
     list-style: none;
 }
 
-li {}
+
 
 a {
     text-decoration: none;
-    font-family: ;
+    
 }
 
 /* utility css - css class while customizing element */
@@ -79,9 +79,6 @@ a {
     padding-block: 60px;
 }
 
-#header {
-    /* background-image: url(images/asset\ 15.svg); */
-}
 
 .navbar {
     height: 30;
@@ -142,7 +139,7 @@ left:15%
 100%{
 
 } */
-}
+
 
 .download {
     gap: 30px;
