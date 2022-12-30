@@ -56,6 +56,7 @@ a {
     
 }
 
+
 /* utility css - css class while customizing element */
 .sub-foot-link {
     text-decoration: underline;
@@ -100,7 +101,9 @@ a {
     font-family: 'Poppins', sans-serif;
     font-weight: 550;
 }
-
+.nav-link:hover{
+    color: var(--secondary-text-color);
+}
 .nav-con {
     padding-block: 90px;
 }
@@ -145,9 +148,9 @@ left:15%
     gap: 30px;
 }
 
-.download img {
+.download-btn img {
 
-    width: 32%;
+    width: 100%;
 }
 
 .title-img {
@@ -230,10 +233,6 @@ left:15%
     padding-block: 60px;
 }
 
-#footer {
-    /* background-image: url(images/asset\ 15.svg); */
-}
-
 .ul-item {
     flex-direction: column;
     gap: 10px;
@@ -246,7 +245,12 @@ left:15%
     font-size: 20px;
     font-weight: 500;
 }
-
+.ul-item a:hover{
+    color: var(--secondary-text-color);
+}
+.ul-item i{
+    margin-right: 7px;
+}
 .foot img {
     display: block;
     width: 9%;
