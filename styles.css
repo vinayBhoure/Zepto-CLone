@@ -80,6 +80,47 @@ a {
     padding-block: 60px;
 }
 
+
+.animate-head::before{
+    content: '';
+    text-decoration: none;
+    animation: animate infinite 12s;
+    transition: 0.2s ease-in-out;
+}
+
+@keyframes animate{
+    0%{
+        content: 'Fruits';
+        text-decoration: none;
+        color: rgb(242, 120, 76);
+    }
+    40%{
+        content: 'Groceries';
+        color: white;
+        text-decoration: none;
+    }
+    55%{
+        content: 'Snacks';
+        color: rgb(242, 120, 76);
+        text-decoration: none;
+    }
+    70%{
+        content: 'Milk';
+        text-decoration: none;
+        color: rgb(242, 120, 76);
+    }
+    85%{
+        content: 'Ice Creams';
+        color: rgb(242, 120, 76);
+        text-decoration: none;
+    }
+    100%{
+        content: 'Veggies';
+        color: rgb(242, 120, 76);
+        text-decoration: none;
+    }
+}
+
 .navbar {
     height: 30;
 }
