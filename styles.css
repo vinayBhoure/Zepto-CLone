@@ -37,7 +37,7 @@ h3 {
 
 .container {
     max-width: 1255px;
-
+    overflow-x: hidden;
     margin: auto;
 }
 
@@ -80,7 +80,6 @@ a {
     padding-block: 60px;
 }
 
-
 .navbar {
     height: 30;
 }
@@ -103,6 +102,12 @@ a {
 }
 .nav-link:hover{
     color: var(--secondary-text-color);
+}
+.nav-link:active{
+    color: var(--secondary-text-color);
+}
+.toggle{
+    display: none;
 }
 .nav-con {
     padding-block: 90px;
@@ -203,7 +208,7 @@ left:15%
 }
 
 .cuscard {
-    width: 47.61%;
+    width: 47%;
     flex-direction: column;
     padding: 35px 35px;
     font-size: 30px;
@@ -288,4 +293,88 @@ left:15%
 span {
     text-decoration: underline;
     color: #dec2eb;
+}
+
+
+
+/* delivery-area */
+#delivery-locations
+{
+    background-color: #290248 ;
+    color: white;
+    padding-block: 100px;
+}
+.delivery-area{
+    color: white;
+    background-image: url(images/asset\ 15.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+   
+}
+.delivery-area h1
+{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 5.5rem;
+    font-weight: 500;
+}
+
+.locality{
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 40px;
+}
+
+.city{
+    flex-direction: column;
+    width: calc(50% - 20px);
+    padding: 0 20px;
+}
+
+.name{
+    align-items: center;
+
+}
+
+.name h1{
+    display: inline;
+}
+.description{
+    text-align: left;
+}
+
+/* Customer Support */
+
+.customer-support-area{
+    color: white;
+    background-image: url(images/asset\ 15.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+   
+}
+.customer-support-area h1{
+    
+    text-align: center;
+    padding-top: 70px;
+    font-size: 5.5rem;
+    font-weight: 500;
+}
+
+#customer-support-desc{
+    background-color: #290248;
+    color: white;
+    text-align: center;
+    padding: 60px 120px;
+}
+.support-item{
+    justify-content: space-evenly;
+}
+.support-link{
+    padding: 0 20px;
+}
+
+.support-link a{
+   color: white;
 }
