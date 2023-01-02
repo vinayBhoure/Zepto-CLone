@@ -79,7 +79,12 @@ a {
     background-color: #3c006b;
     padding-block: 60px;
 }
-
+#title-bg{
+    background-image: url(images/asset\ 15.svg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .animate-head::before{
     content: '';
@@ -278,7 +283,12 @@ left:15%
     background-color: #3c006b;
     padding-block: 60px;
 }
-
+#footer-bg{
+    background-image: url(images/asset\ 15.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .ul-item {
     flex-direction: column;
     gap: 10px;
