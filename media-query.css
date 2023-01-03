@@ -25,16 +25,6 @@
        overflow-x: hidden;
     }
     
-    /* .title-img {
-        width: 55%;
-        position: absolute;
-    }
-    .title-img-2{
-        width: 120%;
-        position: relative;
-        left: 28%;
-    } */
-
     .customers {
         justify-content: space-between;
     }
@@ -59,9 +49,13 @@
         margin: auto;
     }
     
-    .nav-list {
+    .navbar-link {
         display: none;
     }
+
+    .navbar-link ul{
+        flex-direction: column;
+    } 
 
     .nav-con {
         padding-block: 40px;
@@ -279,8 +273,11 @@
         margin: auto;
     }
 
+    #header{
+        padding-block: 25px;
+    }
     .nav-con {
-        padding-block: 10px;
+        padding-block: 25px;
     }
     
     .left-area{
