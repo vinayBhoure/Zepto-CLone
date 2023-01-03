@@ -338,11 +338,11 @@
 
     .menu {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .ul-item {
-        text-align: center;
+        text-align: left;
     }
 
     .ul-item a {
