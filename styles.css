@@ -105,21 +105,17 @@ a {
         color: white;
         text-decoration: none;
     }
-    55%{
+    60%{
         content: 'Snacks';
         color: rgb(242, 120, 76);
         text-decoration: none;
     }
-    70%{
+    80%{
         content: 'Milk';
         text-decoration: none;
         color: rgb(242, 120, 76);
     }
-    85%{
-        content: 'Ice Creams';
-        color: rgb(242, 120, 76);
-        text-decoration: none;
-    }
+   
     100%{
         content: 'Veggies';
         color: rgb(242, 120, 76);
