@@ -32,7 +32,8 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -149,9 +150,7 @@ a {
 .nav-link:hover{
     color: var(--secondary-text-color);
 }
-.nav-link:active{
-    color: var(--secondary-text-color);
-}
+
 .toggle{
     display: none;
 }
@@ -161,52 +160,38 @@ a {
 
 .left-area {
     flex-direction: column;
-    max-width: 50%;
+    width: 50%;
     gap: 40px;
 
 }
 
 .left-area h1 {
-    font-size: 96px;
-    line-height: 126px;
+    font-size: 6rem;
+    line-height: 7rem;
     color: white;
+}
+
+.download {
+    gap: 50px;
+}
+
+.download-btn img {
+
+    width: 117%;
+}
+
+.nav-con{
+   overflow-x: hidden;
+}
+
+.title-img {
+    width: 65%;
+    position: absolute;
 }
 .title-img-2{
     width: 120%;
     position: relative;
     left: 15%;
-    animation: rocket 4s ease-out 0 infinite alternate;
-}
-/* @keyframes rocket{
-0%{
-left:30%;
-}
-25%{
-  top:15%;
-}
-50%{
-left:15%
-}
-75%{
-
-}
-100%{
-
-} */
-
-
-.download {
-    gap: 30px;
-}
-
-.download-btn img {
-
-    width: 100%;
-}
-
-.title-img {
-    width: 55%;
-    position: absolute;
 }
 
 #process {
@@ -229,6 +214,7 @@ left:15%
 .cardbox {
     justify-content: space-around;
     margin-top: 30px;
+    flex-wrap: wrap;
 
 }
 
@@ -317,6 +303,7 @@ left:15%
     gap: 35px;
     color: #dec2eb;
     font-size: 20px;
+    flex-wrap: wrap;
 }
 
 .sub-footer a {
