@@ -335,7 +335,12 @@
     }
 
     /* FOOTER SECTION */
-
+    .foot img{
+        display: block;
+        width: 45%;
+        margin: auto;
+    }
+    
     .menu {
         flex-direction: column;
         align-items: flex-start;
