@@ -69,6 +69,7 @@ a {
 
 .nav-container {
     justify-content: space-between;
+    /* position: relative; */
 }
 
 #header {
