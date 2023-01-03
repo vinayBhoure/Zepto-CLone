@@ -54,7 +54,7 @@ ul {
 
 a {
     text-decoration: none;
-    
+
 }
 
 
@@ -81,43 +81,47 @@ a {
     background-color: #3c006b;
     padding-block: 60px;
 }
-#title-bg{
+
+#title-bg {
     background-image: url(images/asset\ 15.svg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.animate-head::before{
+.animate-head::before {
     content: '';
     text-decoration: none;
     animation: animate infinite 12s;
     transition: 0.2s ease-in-out;
 }
 
-@keyframes animate{
-    0%{
+@keyframes animate {
+    0% {
         content: 'Fruits';
         text-decoration: none;
         color: rgb(242, 120, 76);
     }
-    40%{
+
+    40% {
         content: 'Groceries';
         color: white;
         text-decoration: none;
     }
-    60%{
+
+    60% {
         content: 'Snacks';
         color: rgb(242, 120, 76);
         text-decoration: none;
     }
-    80%{
+
+    80% {
         content: 'Milk';
         text-decoration: none;
         color: rgb(242, 120, 76);
     }
-   
-    100%{
+
+    100% {
         content: 'Veggies';
         color: rgb(242, 120, 76);
         text-decoration: none;
@@ -144,14 +148,16 @@ a {
     font-family: 'Poppins', sans-serif;
     font-weight: 550;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: var(--secondary-text-color);
 }
 
-.toggle{
+.toggle {
     display: none;
     color: #ff3269;
 }
+
 .nav-con {
     padding-block: 90px;
 }
@@ -178,15 +184,16 @@ a {
     width: 117%;
 }
 
-.nav-con{
-   overflow-x: hidden;
+.nav-con {
+    overflow-x: hidden;
 }
 
 .title-img {
     width: 65%;
     position: absolute;
 }
-.title-img-2{
+
+.title-img-2 {
     width: 120%;
     position: relative;
     left: 15%;
@@ -267,12 +274,14 @@ a {
     background-color: #3c006b;
     padding-block: 60px;
 }
-#footer-bg{
+
+#footer-bg {
     background-image: url(images/asset\ 15.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .ul-item {
     flex-direction: column;
     gap: 10px;
@@ -285,15 +294,18 @@ a {
     font-size: 20px;
     font-weight: 500;
 }
-.ul-item a:hover{
+
+.ul-item a:hover {
     color: var(--secondary-text-color);
 }
-.ul-item i{
+
+.ul-item i {
     margin-right: 7px;
 }
+
 .foot img {
     display: block;
-    width: 9%;
+    width: 10%;
 }
 
 .sub-footer {
@@ -315,7 +327,7 @@ a {
 }
 
 .slider h1 {
-    margin-right: 200px;
+    margin-right: 170px;
     color: white;
 }
 
@@ -334,83 +346,132 @@ span {
 
 
 /* delivery-area */
-#delivery-locations
-{
-    background-color: #290248 ;
+#delivery-locations {
+    background-color: #290248;
     color: white;
     padding-block: 100px;
 }
-.delivery-area{
+
+.delivery-area {
     color: white;
     background-image: url(images/asset\ 15.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-   
+
 }
-.delivery-area h1
-{
+
+.delivery-area h1 {
     text-align: center;
     padding-top: 70px;
     font-size: 5.5rem;
     font-weight: 500;
 }
 
-.locality{
-     flex-wrap: wrap;
-     justify-content: space-between;
-     gap: 40px;
+.locality {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
 }
 
-.city{
+.city {
     flex-direction: column;
     width: calc(50% - 20px);
     padding: 0 20px;
 }
 
-.name{
+.name {
     align-items: center;
 
 }
 
-.name h1{
+.name h1 {
     display: inline;
 }
-.description{
+
+.description {
     text-align: left;
 }
 
 /* Customer Support */
 
-.customer-support-area{
+.customer-support-area {
     color: white;
     background-image: url(images/asset\ 15.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-   
+
 }
-.customer-support-area h1{
-    
+
+.customer-support-area h1 {
+
     text-align: center;
     padding-top: 70px;
     font-size: 5.5rem;
     font-weight: 500;
 }
 
-#customer-support-desc{
+#customer-support-desc {
     background-color: #290248;
     color: white;
     text-align: center;
     padding: 60px 120px;
 }
-.support-item{
+
+.support-item {
     justify-content: space-evenly;
 }
-.support-link{
+
+.support-link {
     padding: 0 20px;
 }
 
-.support-link a{
-   color: white;
+.support-link a {
+    color: white;
+}
+
+
+.press-area {
+    color: white;
+    background-image: url(images/asset\ 15.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+.press-area h1 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 5.5rem;
+    font-weight: 500;
+}
+
+#press-desc{
+      background-color: #290248;
+     color: white;
+     text-align: center;
+     padding-block: 50px;
+}
+.careers-area {
+    color: white;
+    background-image: url(images/asset\ 15.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.careers-area h1 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 5.5rem;
+    font-weight: 500;
+}
+
+#career-desc{
+    background-color: #290248;
+     color: white;
+     text-align: center;
+     padding-block: 50px;
 }
