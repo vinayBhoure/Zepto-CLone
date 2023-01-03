@@ -150,6 +150,7 @@ a {
 
 .toggle{
     display: none;
+    color: #ff3269;
 }
 .nav-con {
     padding-block: 90px;
