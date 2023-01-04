@@ -295,12 +295,22 @@
     }
 
      /* DELIEVRY LOCALITY */
+
+     .delivery-area h1{
+        font-size: 4rem;
+      }
+      
      .name img{
         width: 3rem;
     }
     
     .name h1{
      font-size: 3.5rem;
+    }
+
+    /* CUSTOMER SUPPORT */
+    .customer-support-area h1{
+        font-size: 4rem;
     }
 }
 
@@ -403,6 +413,11 @@
     }
 
     /* DELIEVRY LOCALITY */
+
+    .delivery-area h1{
+      font-size: 4rem;
+    }
+
     .name img{
         width: 2rem;
     }
@@ -410,5 +425,10 @@
     .name h1{
      font-size: 2.5rem;
     }
-}
 
+    /* customer support */
+
+    .customer-support-area h1{
+        font-size: 4rem;
+    }
+}

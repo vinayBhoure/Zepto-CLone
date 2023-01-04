@@ -88,6 +88,10 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.left-area span {
+    text-decoration: none;
+    color: #dec2eb;
+}
 
 .animate-head::before {
     content: '';
